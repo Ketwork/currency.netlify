@@ -1,3 +1,10 @@
+# Description 
+
+This app converts currency to and from selected currencies. The currency figure will change in real time when the amount is changed or the selected currency is changed via the drop-down boxes.
+
+The API used is from https://fixer.io/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
