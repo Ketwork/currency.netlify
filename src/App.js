@@ -30,7 +30,7 @@ function App() {
       }
       init();
     }
-  }, [rates]);
+  }, );
 
 
   //function to round to 4 decimal places
