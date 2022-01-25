@@ -8,7 +8,7 @@ function App() {
   const [amount1, setAmount1] = useState(1);
   const [amount2, setAmount2] = useState(1);
   const [currency1, setCurrency1] = useState("GBP");
-  const [currency2, setCurrency2] = useState("USD");
+  const [currency2, setCurrency2] = useState("EUR");
   const [rates, setRates] = useState([]);
 
   //gets rates when page loads
@@ -35,7 +35,7 @@ function App() {
 
   //function to round to 4 decimal places
   function format(number) {
-    return number.toFixed(4);
+    return number.toFixed(2);
   }
 
   function handleAmount1Change(amount1) {
