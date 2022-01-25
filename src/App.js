@@ -15,10 +15,10 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        "http://data.fixer.io/api/latest?access_key=6cdbb402210b7b08891a27002ff221a2"
+        "https://exchange-rates.abstractapi.com/v1/live/?api_key=98a05bebf1a442fbb55afc2dd8cbb4d3&base=USD"
       )
       .then((response) => {
-        setRates(response.data.rates);
+        setRates(response.data.exchange_rates);
       });
   }, []);
 
